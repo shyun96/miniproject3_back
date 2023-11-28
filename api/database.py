@@ -1,5 +1,5 @@
-FROM pymysql import connect
-FROM datetime import datetime
+from pymysql import connect
+from datetime import datetime
 import pymysql
 
 
