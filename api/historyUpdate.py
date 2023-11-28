@@ -3,11 +3,11 @@ from datetime import datetime
 
 
 connectionString = {
-    'host': '172.17.14.241', # mysql-service의 IP
+    'host': 'database-1.cevm7po3p7rc.us-west-2.rds.amazonaws.com', # mysql-service의 IP
     'port': 3306,
     'database': 'auction',
-    'user': 'user1',
-    'password': '1234',
+    'user': 'admin',
+    'password': 'password',
     'charset': 'utf8',
     'cursorclass': pymysql.cursors.DictCursor
 }
